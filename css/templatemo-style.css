@@ -532,7 +532,12 @@ li.dropdown {
 /*---------------------------------------
       ABOUT
   -----------------------------------------*/
+#about {
+  background: #3f51b5;
+}
+
 #about figure {
+  
   display: inline-block;
   vertical-align: top;
   margin-left: 15px;
