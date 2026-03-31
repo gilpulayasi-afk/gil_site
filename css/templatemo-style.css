@@ -450,6 +450,16 @@ li.dropdown {
 }
 
 .home-slider .item-first {
+  background-image: url("../images/soil1.png");
+  background-position: center;
+}
+
+.home-slider .item-first {
+  background-image: url("../images/soil2.png");
+  background-position: center;
+}
+
+.home-slider .item-first {
   background-image: url("../images/gil_img1.jpg");
   background-position: center;
 }
