@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
 
 body {
-  background: #ffffff;
+  background: #329be6;
   font-family: 'Nunito', sans-serif;
   overflow-x: hidden;
   padding-top: 70px;
@@ -156,7 +156,7 @@ section {
 
 #team,
 #testimonial {
-  background: #f9f9f9;
+  background: #329be6;
 }
 
 #team,
@@ -243,7 +243,7 @@ section {
 .jumbotron
 {
 padding: 8px;
-background: #7D62FF;
+background: #329be6;
 background: -webkit-radial-gradient(left, #7D62FF, #082021);
 background: -moz-radial-gradient(left, #7D62FF, #082021);
 background: radial-gradient(to right, #7D62FF, #082021);
@@ -261,7 +261,7 @@ background: radial-gradient(to right, #7D62FF, #082021);
       MENU
   -----------------------------------------*/
 .custom-navbar {
-  background: #ffffff;
+  background: #329be6;
   border-top: 5px solid #29ca8e;
   border-bottom: 0;
   -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
@@ -480,13 +480,13 @@ li.dropdown {
 }
 
 .home-slider .item-seventh {
-  background-image: url("../images/gil_road.jpg");
+  background-image: url("../images/gil_road2.jpg");
 }
 /*---------------------------------------
       FEATURE
   -----------------------------------------*/
 .feature-bg {
-  background-color: #F8F9F9;
+  background-color: #329be6;
 }
 
 .feature-thumb {
@@ -535,7 +535,7 @@ li.dropdown {
       ABOUT
   -----------------------------------------*/
 #about {
-  background: #3f51b5;
+  background: #329be6;
 }
 
 #about figure {
@@ -573,7 +573,7 @@ li.dropdown {
 -----------------------------------------*/
 
 .notification-bg {
-  background-color: #F2F4F4;
+  background-color: #329be6;
 }
 
 .notify h2 {
@@ -613,6 +613,10 @@ li.dropdown {
 /*---------------------------------------
       TEAM
   -----------------------------------------*/
+.team-bg {
+  background-color: #3265e6;
+}
+
 
 .team-thumb {
   background: #ffffff;
@@ -685,7 +689,7 @@ li.dropdown {
 }
 
 .courses-thumb {
-  background: #f9f9f9;
+  background: #329be6;
   position: relative;
 }
 
@@ -805,7 +809,7 @@ li.dropdown {
       TESTIMONIAL
   -----------------------------------------*/
 #testimonial .item {
-  background: #ffffff;
+  background: #329be6;
   margin: 20px 0;
   padding: 4em 3em;
   text-align: left;
@@ -865,7 +869,7 @@ p.upng {
       TESTIMONIAL
   -----------------------------------------*/
 .testimonial-bg {
-  background-color: #fff!important;
+  background-color: #329be6;
 }
 
 #testimonial .item {
@@ -990,7 +994,7 @@ p.upng {
       CONTACT
   -----------------------------------------*/
 #contact {
-  background: #3f51b5;
+  background: #329be6;
 }
 
 #contact h2 {
@@ -1036,7 +1040,7 @@ p.upng {
   -----------------------------------------*/
 
 #footer {
-  background: #252020;
+  background: #329be6;
   padding: 120px 0;
 }
 
