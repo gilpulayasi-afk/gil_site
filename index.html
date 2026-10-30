@@ -4,22 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
   <title>Glory Investment Ltd</title>
   
   <meta name="description" content="Glory Investment Limited provides Liquid Soil Stabilization, Bore Water Systems, Shipping & Logistics, Solar PV, and Construction in Papua New Guinea.">
   <meta name="keywords" content="Glory Investment, Soil Stabilization PNG, Bore Water Systems, IBK Shipping, Solar PNG">
   <meta name="author" content="Glory Investment Ltd">
 
+  <!-- RESOURCE HINTS (Speeds up external connections) -->
+  <link rel="preconnect" href="https://maxcdn.bootstrapcdn.com" crossorigin>
+  <link rel="preconnect" href="https://stackpath.bootstrapcdn.com" crossorigin>
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+
   <link rel="icon" href="images/favicon.png">
 
-  <!-- STYLESHEETS (Duplicates removed) -->
+  <!-- CORE STYLESHEETS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/templatemo-style.css">
 
-  <!-- GOOGLE ANALYTICS -->
+  <!-- GOOGLE ANALYTICS (Non-blocking) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150714357-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -31,7 +37,7 @@
 
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-  <!-- PRE LOADER -->
+  <!-- PRE LOADER WITH FAILSAFE -->
   <section class="preloader">
     <div class="spinner">
       <span class="spinner-rotate"></span>
@@ -298,7 +304,7 @@
         <div class="col-md-4 col-sm-4">
           <div class="team-thumb">
             <div class="team-image">
-              <img src="images/danny.jpeg" class="img-responsive" alt="Danny Cho">
+              <img src="images/danny.jpeg" class="img-responsive" alt="Danny Cho" loading="lazy">
             </div>
             <div class="team-info">
               <h4>Danny Cho</h4>
@@ -315,7 +321,7 @@
         <div class="col-md-4 col-sm-4">
           <div class="team-thumb">
             <div class="team-image">
-              <img src="images/Cho.jpeg" class="img-responsive" alt="Helen Park">
+              <img src="images/Cho.jpeg" class="img-responsive" alt="Helen Park" loading="lazy">
             </div>
             <div class="team-info">
               <h4>Helen Park</h4>
@@ -332,7 +338,7 @@
         <div class="col-md-4 col-sm-4">
           <div class="team-thumb">
             <div class="team-image">
-              <img src="images/EP.jpeg" class="img-responsive" alt="Elmah Pulayasi">
+              <img src="images/EP.jpeg" class="img-responsive" alt="Elmah Pulayasi" loading="lazy">
             </div>
             <div class="team-info">
               <h4>Elmah Pulayasi</h4>
@@ -362,7 +368,7 @@
             <div class="col-md-4 col-sm-4">
               <div class="item">
                 <div class="tst-image">
-                  <img src="images/gil_logo.jpg" class="img-responsive" alt="Glory Investment Limited">
+                  <img src="images/gil_logo.jpg" class="img-responsive" alt="Glory Investment Limited" loading="lazy">
                 </div>
                 <div class="tst-author">
                   <h4>GIL</h4>
@@ -375,6 +381,35 @@
       </div>
     </div>
   </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <p class="copyright-text">Copyright &copy; 2026 Glory Investment Limited. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/custom.js"></script>
+
+  <!-- PRELOADER FAILSAFE SCRIPT -->
+  <script>
+    // Force hide preloader after 1.5 seconds if scripts/images lag
+    setTimeout(function() {
+      var preloader = document.querySelector('.preloader');
+      if (preloader) {
+        preloader.style.display = 'none';
+      }
+    }, 1500);
+  </script>
 
 </body>
 </html>
